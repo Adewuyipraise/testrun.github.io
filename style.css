@@ -63,11 +63,14 @@ ul li a{
 ul li a:hover{
 	color: Blue;
 }
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
 
 header{
 	width: 100vw;
 	height: 100vh;
-	background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(images/41aVU6Dqg9L._AC_SX355_.jpg);
+	background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(migrants/migrants6.jpg);
 	background-position: bottom;
 	background-size: cover;
 	display: flex;
@@ -113,6 +116,9 @@ header{
 	transition: 0.5s ease;
 	color: DarkBlue;
 }
+.header-col h3{
+	color: Red;
+}
 .header-content p span{
 	font-size: 18px;
 	color: DarkBlue;
@@ -122,6 +128,7 @@ header{
 	background: Blue;
 	border-radius: 30px;
 	color: whitesmoke;
+	transition: 0.5s ease;
 }
 .ctn:hover{
 	background-color: Red;
@@ -319,6 +326,68 @@ header{
 		font-size: 12px;
 	}
 }
+
+
+
+
+
+
+
+
+
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+ @keyframes cf3FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#cf3 img.top {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
