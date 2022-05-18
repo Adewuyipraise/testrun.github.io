@@ -43,6 +43,10 @@ body , html{
 	padding: 20px;
 	color: whitesmoke;
 }
+.navbar p{
+	margin-left: -70px;
+	font-size: 25px;
+}
 
 .nav-links{
 	display: flex;
@@ -77,15 +81,23 @@ header{
 	align-items: center;
 	justify-content: center;
 }
-
+.header-img {
+	margin-top: -520px;
+	margin-left: 420PX;
+}
+.header-img-log{
+}
 .header-content{
 	margin-top: 150px;
 	margin-bottom: 150px;
 	color: whitesmoke;
 	text-align: center;
+	align-items: CENTER;
 }
 .header-content h1{
 	font-size: 4vain;
+	text-align: left;
+	margin-left: 500PX;
 }
 .line{
 	width: 500px;
@@ -98,6 +110,7 @@ header{
 	font-size: 7vain;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	text-align: center;
 }
 .row{
 	margin-top: 5%;
@@ -232,6 +245,11 @@ header{
 		position: absolute;
 		top: 30px;
 		left: 30px;
+	}
+	.navbar p{
+		margin-left: 105px;
+		margin-top: 30px;
+		font-size: 15px;
 	}
 	.nav-links{
 		flex-direction: column;
