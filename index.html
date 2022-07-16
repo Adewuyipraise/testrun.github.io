@@ -11,8 +11,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<nav class="navbar">
-		<h1 class="logo"><a href="index.html" class="animate__animated animate__fadeInUp"><img class="animate__animated animate__fadeInDown" src="images/logo.png" alt="Logo"></h1>
+	<nav class="navbar" id="myHeader">
+		<h1 class="logo"><a href="index.html" class="animate__animated animate__fadeInUp"><img class="animate__animated animate__fadeInDown" src="images/logo.PNG" alt="Logo"></h1>
 		<p> MEDITERRANEAN FOUNDATION<br> For The Survival Of <br> Africa Migrants</p></a>
 		<ul class="nav-links">
 			<li><a href="index.html">Home</a></li>
@@ -62,7 +62,40 @@
 			<a href="explore.html" class="ctn">EXPLORE MFSAM NOW!!!</a>
 		</div>
 	</header>
-<br />
+	<section>
+			<div class="header-img" class="animate__animated animate__bounce">
+				<!--<img class="animate__animated animate__bounce" src="images/logo.PNG">-->
+			</div>
+</section>
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
 <br />
 <section class="video">
 	<div class="videos">
@@ -79,11 +112,20 @@
 	</div>
 	<div class="row">
 		<div class="testimonial-col">
+			<img src="images/mr. onuoha.PNG" alt="">
+			</div>
+		<div class="testimonial-col-text">
+			<h4>MR ONUOHA CHUKWUEMEKA</h4>
+			<p>PRESIDENT<br>An Accountant and Data Management Analyst.<br>A Manager with more than 25years postgraduate working experience<br> with severalOrganizations also a serving Director of severalcompanies.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="testimonial-col">
 			<img src="images/chief daniel agiri.PNG" alt="">
 		</div>
 		<div class="testimonial-col-text">
 			<h4>His Excellency Chief Daniel Agiri</h4>
-			<p>Peace Ambassador (UN)<br>President/Co-Founder.<br>Deputy Head of International Diplomatic Society Europe,<br> Joshua Generation Foundation,<br>European Migrants,<br> Winner of many International Awards on Humanitarian<br>Services and Ambassador of many NGOs.</p>
+			<p>Peace Ambassador (UN)<br>Co-Founder.<br>Deputy Head of International Diplomatic Society Europe,<br> Joshua Generation Foundation,<br>European Migrants,<br> Winner of many International Awards on Humanitarian<br>Services and Ambassador of many NGOs.</p>
 		</div>
 	</div>
 	<div class="row">
@@ -96,14 +138,6 @@
 			</p>
 		</div>
 	</div>
-	<div class="row">
-		<div class="testimonial-col">
-			<img src="images/mr. onuoha.PNG" alt="">
-			</div>
-		<div class="testimonial-col-text">
-			<h4>MR ONUOHA CHUKWUEMEKA</h4>
-			<p>VICE PRESIDENT<br>An Accountant and Data Management Analyst.<br>A Manager with more than 25years postgraduate working experience<br> with severalOrganizations also a serving Director of severalcompanies.</p>
-		</div>
 	</div>
 </section>
 </section>
@@ -178,6 +212,10 @@
 			<img src="images/marcia.PNG">
 			<img src="images/mercy.PNG">
 			<img src="images/quattara.PNG">
+		</div>
+<br />
+		<div class="images">
+			<img src="migrants/queen usa.png">
 		</div>
 	</div>
 </section>
@@ -283,5 +321,25 @@ TEL: +30 694 758 2748, +234 806 046 8225, +353 89 499 5092, +234 706 606 2154</p
 			navlinks.classList.toggle('mobile-menu')
 		})
 	</script>
+
+	<script>
+	// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
 </body>
 </html>
